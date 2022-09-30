@@ -1,0 +1,7 @@
+version: "3"
+services:
+  web:
+    container_name: nuxt
+    build: .
+    ports:
+      - 80:80
